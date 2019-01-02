@@ -1,9 +1,9 @@
 {
-  "name": "alexa-remote-control-login",
+  "name": "alexa-remote-control-cookies",
   "version": "1.0.0",
   "description": "Retrieve alexa auth cookies for remote control",
-  "homepage": "https://github.com/tverdohleb/alexa-remote-control-login",
-  "repository": "tverdohleb/alexa-remote-control-login",
+  "homepage": "https://github.com/tverdohleb/alexa-remote-control-cookies",
+  "repository": "tverdohleb/alexa-remote-control-cookies",
   "author": "Valeriy Tverdohleb",
   "email": "v@tverdohleb.com",
   "license": "MITn",
