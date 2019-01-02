@@ -1,3 +1,5 @@
 .editorconfig
 .eslintrc.js
 .prettierrc
+.idea
+.vscode
