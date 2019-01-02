@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const commander = require('commander');
 const Prompt = require('prompt-password');
 const nightmare = require('nightmare');

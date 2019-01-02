@@ -1,6 +1,6 @@
 {
   "name": "alexa-remote-control-cookies",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Retrieve alexa auth cookies for remote control",
   "homepage": "https://github.com/tverdohleb/alexa-remote-control-cookies",
   "repository": "tverdohleb/alexa-remote-control-cookies",
