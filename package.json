@@ -1,0 +1,37 @@
+{
+  "name": "alexa-remote-control-login",
+  "version": "1.0.0",
+  "description": "Retrieve alexa auth cookies for remote control",
+  "homepage": "https://github.com/tverdohleb/alexa-remote-control-login",
+  "repository": "tverdohleb/alexa-remote-control-login",
+  "author": "Valeriy Tverdohleb",
+  "email": "v@tverdohleb.com",
+  "license": "MITn",
+  "scripts": {
+    "start": "node ./index.js",
+    "lint": "eslint *.js **/*.js",
+    "precommit": "lint-staged"
+  },
+  "main": "index.js",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "nightmare": "^3.0.1",
+    "prompt-password": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.1",
+    "prettier": "^1.15.3"
+  }
+}
