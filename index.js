@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// eslint-disable no-console
+
 const commander = require('commander');
 const Prompt = require('prompt-password');
 const nightmare = require('nightmare');
@@ -73,15 +75,16 @@ commander
   .description('retrieve cookies')
   .action(async (email, password) => {
     if (typeof email !== 'string') {
-      // eslint-disable-next-line no-console
       console.log('email required');
       return;
     }
     const pwd = await fromVarOrStdin(password, 'Enter password: ');
 
     const result = await login(email, pwd);
-    // eslint-disable-next-line no-console
-    console.log(JSON.stringify(result, null, ' '));
+    console.log('CSRF:');
+    console.log(result.Csrf);
+    console.log('Cookie:');
+    console.log(result.Cookie);
   });
 
 commander.parse(process.argv);
