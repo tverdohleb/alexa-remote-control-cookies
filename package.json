@@ -6,7 +6,7 @@
   "repository": "tverdohleb/alexa-remote-control-cookies",
   "author": "Valeriy Tverdohleb",
   "email": "v@tverdohleb.com",
-  "license": "MITn",
+  "license": "MIT",
   "scripts": {
     "start": "node ./index.js",
     "lint": "eslint *.js **/*.js",
