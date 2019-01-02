@@ -12,6 +12,9 @@
     "lint": "eslint *.js **/*.js",
     "precommit": "lint-staged"
   },
+  "bin": {
+    "alexa-remote-control-cookies": "index.js"
+  },
   "main": "index.js",
   "lint-staged": {
     "*.js": [
